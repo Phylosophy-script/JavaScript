@@ -14,3 +14,9 @@ function test(firstName){
     console.log(`This is a Day 2 in JS by ${firstName}`);
 }
 test("khalil");
+// CALCULATOR
+function square(num) {
+    return num * num;
+}
+let result = square(5);
+console.log(result);
